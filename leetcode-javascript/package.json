@@ -1,0 +1,17 @@
+{
+  "name": "leetcode-javascript",
+  "version": "1.0.0",
+  "description": "LeetCode practice problems in JavaScript with Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": ["leetcode", "algorithms", "javascript"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

@@ -1,0 +1,57 @@
+Create three separate LeetCode practice projects with the following structure:
+
+PROJECT 1: C# (.NET)
+- Create a folder: leetcode-csharp/
+- Initialize a .NET solution with xUnit test framework
+- Structure:
+  - LeetCode.Problems/ (class library project)
+    - Easy/, Medium/, Hard/ folders for organizing problems
+    - Each problem should be a separate class with descriptive naming (e.g., TwoSum.cs)
+  - LeetCode.Tests/ (xUnit test project)
+    - Corresponding test folders: Easy/, Medium/, Hard/
+    - Each problem gets a test class (e.g., TwoSumTests.cs)
+  - Include a README.md explaining how to run tests with `dotnet test`
+- Add a sample problem (Two Sum) with tests to demonstrate the structure
+
+PROJECT 2: JavaScript (Node.js)
+- Create a folder: leetcode-javascript/
+- Initialize npm project with Jest testing framework
+- Structure:
+  - src/
+    - easy/, medium/, hard/ folders
+    - Each problem in its own file (e.g., twoSum.js)
+  - tests/
+    - Corresponding folders: easy/, medium/, hard/
+    - Test files with .test.js suffix (e.g., twoSum.test.js)
+  - package.json with test script configured
+  - Include a README.md explaining how to run tests with `npm test`
+- Add a sample problem (Two Sum) with tests to demonstrate the structure
+
+PROJECT 3: TypeScript
+- Create a folder: leetcode-typescript/
+- Initialize npm project with TypeScript and Jest configured
+- Structure:
+  - src/
+    - easy/, medium/, hard/ folders
+    - Each problem in its own file (e.g., twoSum.ts)
+  - tests/
+    - Corresponding folders: easy/, medium/, hard/
+    - Test files with .test.ts suffix (e.g., twoSum.test.ts)
+  - tsconfig.json properly configured
+  - jest.config.js configured for TypeScript
+  - package.json with test script configured
+  - Include a README.md explaining how to run tests with `npm test`
+- Add a sample problem (Two Sum) with tests to demonstrate the structure
+
+GENERAL REQUIREMENTS:
+- Each README should include:
+  - How to run all tests
+  - How to run tests for a specific file
+  - How to add new problems
+  - Folder structure explanation
+- Use descriptive problem naming (use the actual LeetCode problem name)
+- Include comments in sample problems explaining the approach
+- Make test commands simple and consistent
+- Add .gitignore files appropriate for each language
+
+Create all three projects in the current directory with clear separation.
