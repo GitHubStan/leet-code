@@ -4,12 +4,7 @@ namespace LeetCode.Tests.Easy;
 
 public class TwoSumTests
 {
-    private readonly TwoSum _solution;
-
-    public TwoSumTests()
-    {
-        _solution = new TwoSum();
-    }
+    private readonly TwoSum _solution = new();
 
     [Fact]
     public void Example1_ReturnsCorrectIndices()
