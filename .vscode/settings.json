@@ -7,5 +7,24 @@
   "editor.inlineSuggest.enabled": false,
   "editor.suggestOnTriggerCharacters": false,
   "editor.parameterHints.enabled": true,
-  "editor.wordBasedSuggestions":"off"
+  "editor.wordBasedSuggestions": "off",
+  "editor.formatOnSave": true,
+  "[csharp]": {
+    "editor.defaultFormatter": "csharpier.csharpier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "editor.formatOnType": false, // required
+    "editor.formatOnPaste": true, // optional
+    "editor.formatOnSaveMode": "file", // required to format on save
+    "files.autoSave": "onFocusChange", // optional but recommended
+  },
+    "[typescript]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "editor.formatOnType": false, // required
+    "editor.formatOnPaste": true, // optional
+    "editor.formatOnSaveMode": "file", // required to format on save
+    "files.autoSave": "onFocusChange", // optional but recommended
+  }
 }
