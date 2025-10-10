@@ -1,13 +1,16 @@
-namespace LeetCode.Tests.Medium;
-
-using LeetCode.Problems.Medium;
 using System.Text.Json;
+using LeetCode.Problems.Medium;
+
+namespace LeetCode.Tests.Medium;
 
 public class RandomizedSetTests
 {
     [Theory]
     [MemberData(nameof(TestCases))]
-    public void ExecuteOperations_ReturnsExpectedResults(string operationsJson, string argumentsJson)
+    public void ExecuteOperations_ReturnsExpectedResults(
+        string operationsJson,
+        string argumentsJson
+    )
     {
         // Parse input
         var operations = JsonSerializer.Deserialize<string[]>(operationsJson)!;
@@ -54,19 +57,19 @@ public class RandomizedSetTests
         yield return new object[]
         {
             @"[""RandomizedSet"",""insert"",""remove"",""insert"",""getRandom"",""remove"",""insert"",""getRandom""]",
-            @"[[],[1],[2],[2],[],[1],[2],[]]"
+            @"[[],[1],[2],[2],[],[1],[2],[]]",
         };
 
         yield return new object[]
         {
             @"[""RandomizedSet"",""insert"",""insert"",""remove"",""insert"",""getRandom""]",
-            @"[[],[0],[1],[0],[2],[]]"
+            @"[[],[0],[1],[0],[2],[]]",
         };
 
         yield return new object[]
         {
             @"[""RandomizedSet"",""insert"",""insert"",""insert"",""insert"",""insert"",""remove"",""getRandom"",""getRandom""]",
-            @"[[],[3],[3],[1],[2],[1],[1],[],[]]"
+            @"[[],[3],[3],[1],[2],[1],[1],[],[]]",
         };
     }
 }
