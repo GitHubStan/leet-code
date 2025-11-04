@@ -6,6 +6,7 @@ Repo for LeetCode solutions
 This repository contains LeetCode practice projects in multiple languages:
 
 - **[C#](leetcode-csharp/)** - .NET solution with xUnit tests
+- **[Java](leetcode-java/)** - Maven project with JUnit 5 tests
 - **[JavaScript](leetcode-javascript/)** - Node.js project with Jest tests
 - **[TypeScript](leetcode-typescript/)** - TypeScript project with Jest tests
 - **[Python](leetcode-python/)** - Python project with pytest
