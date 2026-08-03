@@ -1,0 +1,18 @@
+---
+description: Project context for this LeetCode solutions repository
+alwaysApply: true
+---
+
+# leet-code
+
+This is a project where I solve LeetCode problems.
+
+Solutions live in language-specific packages:
+
+- `leetcode-csharp/` — .NET with xUnit
+- `leetcode-java/` — Maven with JUnit 5
+- `leetcode-javascript/` — Node.js with Jest
+- `leetcode-typescript/` — TypeScript with Jest
+- `leetcode-python/` — Python with pytest
+
+Organize solutions by difficulty (easy, medium, hard) and keep unit tests with them. Prefer `algorithmNotes.md` for shared algorithm pattern notes.
