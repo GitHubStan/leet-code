@@ -11,7 +11,7 @@ Solutions live in language-specific packages:
 
 - `leetcode-csharp/` — .NET with xUnit
 - `leetcode-java/` — Maven with JUnit 5
-- `leetcode-javascript/` — Node.js with Jest
+- `leetcode-javascript/` — Node.js with Vitest
 - `leetcode-typescript/` — TypeScript with Jest
 - `leetcode-python/` — Python with pytest
 
