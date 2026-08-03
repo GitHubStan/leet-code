@@ -1,19 +1,16 @@
-name: JavaScript Build and Test
+name: JavaScript Tests
 
 on:
   push:
-    branches: [ main ]
     paths:
       - 'leetcode-javascript/**'
       - '.github/workflows/javascript.yml'
   pull_request:
-    branches: [ main ]
-    paths:
-      - 'leetcode-javascript/**'
-      - '.github/workflows/javascript.yml'
+    branches: [main]
 
 jobs:
-  build-and-test:
+  javascript-tests:
+    name: JavaScript tests
     runs-on: ubuntu-latest
 
     defaults:
