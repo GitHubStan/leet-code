@@ -26,5 +26,6 @@
     "editor.formatOnPaste": true, // optional
     "editor.formatOnSaveMode": "file", // required to format on save
     "files.autoSave": "onFocusChange", // optional but recommended
-  }
+  },
+  "vitest.rootConfig": "./leetcode-javascript/vitest.config.js"
 }

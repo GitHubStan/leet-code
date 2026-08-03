@@ -8,13 +8,13 @@ A structured .NET solution for practicing LeetCode problems with xUnit tests.
 leetcode-csharp/
 ├── LeetCode.sln                 # Solution file
 ├── LeetCode.Problems/           # Class library with problem solutions
-│   ├── Easy/                    # Easy difficulty problems
-│   ├── Medium/                  # Medium difficulty problems
-│   └── Hard/                    # Hard difficulty problems
+│   ├── easy/                    # Easy difficulty problems
+│   ├── medium/                  # Medium difficulty problems
+│   └── hard/                    # Hard difficulty problems
 └── LeetCode.Tests/              # xUnit test project
-    ├── Easy/                    # Tests for easy problems
-    ├── Medium/                  # Tests for medium problems
-    └── Hard/                    # Tests for hard problems
+    ├── easy/                    # Tests for easy problems
+    ├── medium/                  # Tests for medium problems
+    └── hard/                    # Tests for hard problems
 ```
 
 ## Running Tests
@@ -46,12 +46,12 @@ dotnet test --filter "FullyQualifiedName~LeetCode.Tests.Hard"
 1. **Create the problem class** in the appropriate difficulty folder under `LeetCode.Problems/`:
    ```bash
    # For example, for an easy problem called "ValidParentheses"
-   # Create: LeetCode.Problems/Easy/ValidParentheses.cs
+   # Create: LeetCode.Problems/easy/ValidParentheses.cs
    ```
 
 2. **Create the test class** in the corresponding folder under `LeetCode.Tests/`:
    ```bash
-   # Create: LeetCode.Tests/Easy/ValidParenthesesTests.cs
+   # Create: LeetCode.Tests/easy/ValidParenthesesTests.cs
    ```
 
 3. **Follow the naming convention**:
@@ -97,5 +97,5 @@ dotnet test --filter "FullyQualifiedName~LeetCode.Tests.Hard"
 ## Sample Problem
 
 The repository includes a sample implementation of **Two Sum** (LeetCode #1) to demonstrate the structure.
-- Solution: `LeetCode.Problems/Easy/TwoSum.cs`
-- Tests: `LeetCode.Tests/Easy/TwoSumTests.cs`
+- Solution: `LeetCode.Problems/easy/TwoSum.cs`
+- Tests: `LeetCode.Tests/easy/TwoSumTests.cs`
